@@ -86,6 +86,11 @@ h3{
     margin-right: 10%;
 }
 
+.p1 {
+    text-align: center;
+    line-height: 2;
+}
+
 .img1{
     grid-area: img;
     width: 600px;
