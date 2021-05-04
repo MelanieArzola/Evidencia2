@@ -1,0 +1,140 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+.menu-principal{
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    background-color: #9ddfd3;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.menu-principal a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.menu-principal li:hover{
+    background-color: #ffdada ;
+}
+
+.menu-principal li{
+flex-grow: 1;
+padding: 1em 0;
+}
+
+.titulo {
+    text-align: center;
+    background-color: #e3f6f5;
+    padding: 1em;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: "header header"
+                        "inicio img";
+}
+
+.cabeza{
+    grid-area: header;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+    margin-left: 10%;
+}
+
+h2{
+    background-color: #ffe8d6;
+    text-align: center;
+    padding: 1em;
+    margin-left: 10%;
+}
+
+h3{
+    background-color: #ffe8d6;
+    text-align: center;
+    padding: 1em;
+}
+
+.paginaprincipal{
+    grid-area: inicio;
+}
+.Contacto{
+    grid-area: inicio;
+    margin-left: 10%;
+}
+
+.Debut{
+    grid-area: inicio;
+}
+
+.p1 p{
+    text-align: justify;
+    line-height: 2;
+    margin-right: 10%;
+}
+
+.img1{
+    grid-area: img;
+    width: 600px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+.img2{
+    width: 1000px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.img3{
+    width: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.img4{
+    width: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.img5{
+    width: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.img6{
+    width: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.img7{
+    width: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
